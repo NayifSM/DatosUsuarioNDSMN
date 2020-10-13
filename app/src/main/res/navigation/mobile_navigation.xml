@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_insertar_user">
+
+    <fragment
+        android:id="@+id/nav_consultar_user"
+        android:name="com.example.datosusuariondsmn.ui.consultaruser.consultaruserFragment"
+        android:label="Consultar Uusario"
+        tools:layout="@layout/fragment_consultaruser" />
+
+    <fragment
+        android:id="@+id/nav_insertar_user"
+        android:name="com.example.datosusuariondsmn.ui.insertaruser.insertuserFragment"
+        android:label="Insertar Usuario"
+        tools:layout="@layout/fragment_insertaruser" />
+
+
+    <fragment
+        android:id="@+id/nav_listar_spinner"
+        android:name="com.example.datosusuariondsmn.ui.listarspinner.listaruserspinnerFragment"
+        android:label="Litar usuario Spinner"
+        tools:layout="@layout/fragment_listarspinner" />
+
+    <fragment
+        android:id="@+id/nav_listar_view"
+        android:name="com.example.datosusuariondsmn.ui.listarlview.listarlviewFragment"
+        android:label="Listar ususario ListView"
+        tools:layout="@layout/fragment_listarlview" />
+    <fragment
+        android:id="@+id/nav_listar_recycler"
+        android:name="com.example.datosusuariondsmn.ui.listarRecycler.listarRecyckerFragment"
+        android:label="Listar ususario Recycler"
+        tools:layout="@layout/fragment_listarlview" />
+</navigation>

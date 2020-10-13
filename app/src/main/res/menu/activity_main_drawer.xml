@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_insertar_user"
+            android:icon="@drawable/ic_insert_user"
+            android:title="Insertar" />
+        <item
+            android:id="@+id/nav_consultar_user"
+            android:icon="@drawable/ic_consultar_user"
+            android:title="Consultar" />
+        <item
+            android:id="@+id/nav_listar_view"
+            android:icon="@drawable/ic_listar_view"
+            android:title="Listar Listview" />
+        <item
+            android:id="@+id/nav_listar_spinner"
+            android:icon="@drawable/ic_listar_spinner"
+            android:title="Listar Spinner"/>
+        <item
+            android:id="@+id/nav_listar_recycler"
+            android:icon="@drawable/ic_listar_recycler"
+            android:title="Listar Recycler"/>
+    </group>
+
+
+</menu>
