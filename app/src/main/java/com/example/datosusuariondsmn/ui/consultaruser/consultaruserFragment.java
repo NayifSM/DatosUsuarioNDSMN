@@ -39,6 +39,7 @@ public class consultaruserFragment extends Fragment {
         edtNom = vista.findViewById(R.id.edtCUnombre);
         edttel = vista.findViewById(R.id.edtCUTel);
         img = vista.findViewById(R.id.imvCimagen);
+
         conn=new ConexionSqlHelper(getContext(), "db_usuarios",null,1);
 
         btnbuscar=vista.findViewById(R.id.btnconsulUsuario);
